@@ -1,0 +1,16 @@
+logging:
+  file:
+    path:  ./src/main/resources/log
+
+
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+server:
+  port: 80
+
