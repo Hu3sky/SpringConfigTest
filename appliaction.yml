@@ -1,2 +1,5 @@
 message:
   Hello Spring Config
+
+server:
+  port: 9012
